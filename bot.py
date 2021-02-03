@@ -1,6 +1,5 @@
 from telegram.ext import Updater, InlineQueryHandler, CommandHandler
 import requests
-import re
 from forex_python.converter import CurrencyRates
 from bs4 import BeautifulSoup
 
