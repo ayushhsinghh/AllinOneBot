@@ -3,10 +3,9 @@ import requests
 from forex_python.converter import CurrencyRates
 from bs4 import BeautifulSoup
 import os
-from credentials import token
 
 PORT = int(os.environ.get('PORT', 5000))
-token = token
+token = "935149789:AAHAZbAbiumEyczdFDqM4lHo9FHd5YhRqjs"
 
 def get_memes():
   session = requests.Session()
