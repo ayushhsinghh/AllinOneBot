@@ -2,9 +2,7 @@ from telegram.ext import Updater, InlineQueryHandler, CommandHandler
 import requests
 from forex_python.converter import CurrencyRates
 from bs4 import BeautifulSoup
-import os
 
-PORT = int(os.environ.get('PORT', 5000))
 token = "935149789:AAHAZbAbiumEyczdFDqM4lHo9FHd5YhRqjs"
 
 def get_memes():
@@ -54,10 +52,7 @@ def main():
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('memes',memes))
     dp.add_handler(CommandHandler('get_price',get_price))
-    updater.start_webhook(listen="0.0.0.0",
-                          port=int(PORT),
-                          url_path=token)
-    updater.bot.setWebhook('https://cybergod-telegram-bot.herokuapp.com/' + token)
+    updater.start_polling()
     updater.idle()
 
 if __name__ == '__main__':
