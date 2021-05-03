@@ -1,59 +1,93 @@
 from telegram.ext import Updater, InlineQueryHandler, CommandHandler
-import requests
-from forex_python.converter import CurrencyRates
-from bs4 import BeautifulSoup
+from credentials import token 
+from Newsfun import *
+from memesfuns import get_memes , memes
+from cryptoPrice import get_crypto_price , crypto_price
+from vaccineUpdate import vaccineUpdate , vaccineUpdatedelhi
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    InlineQueryHandler,
+    CallbackQueryHandler,
+    ConversationHandler,
+    CallbackContext,
+)
 
-token = "935149789:AAHAZbAbiumEyczdFDqM4lHo9FHd5YhRqjs"
+#Logging for Debuging
+import logging
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+logging.basicConfig(filename='telegram.log',
+                          filemode='a',
+                          datefmt='%H:%M:%S',
+  format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-def get_memes():
-  session = requests.Session()
-  response = session.get("https://memechat.app")
-  soup = BeautifulSoup(response.content, 'html.parser')
-  content_class =  soup.find_all("div", {"class": "article-content"})
-  images = []
-  image_url = []
-  i = 0
-  for img in content_class:
-    images.append( img.find_all('img'))
-    image_url.append(images[i][0]['src'])
-    i = i + 1
-  return image_url
 
-def get_crypto_price():
-  url = 'https://rest.coinapi.io/v1/assets?filter_asset_id=BTC;ETH;VET;XRP;LINK;DOT;QKC;TRX;WAVES;AAVE'
-  headers = {'X-CoinAPI-Key' : '997D1EBE-00C6-45E8-9EE0-503AA10EF909'}
-  response = requests.get(url, headers=headers).json()
-  c = CurrencyRates()
-  x = []
-  for item in response:
-    inr_rate =  c.convert('USD', 'INR', item['price_usd'])
-    data = "{} : {:.2f}".format(item['name'] , inr_rate)
-    x.append(data)
-  return x
+def start(update , context):
+    """Send a message when the command /start is issued."""
+    name = update.effective_user.first_name
+    logger.info("User %s started the Bot.", name)
+    start_message = ''' 
+    Hi, {}
+Welcome To All In One Bot.
+Send /help to Check All supported Commands.
 
-def get_price(update , context):
-  data = get_crypto_price()
-  for i in data:
-    update.message.reply_text(i)
+Thanks
+Made by : Ayush    
+    '''.format(name )
+    update.effective_message.reply_text(start_message)
 
-# def get_url():
-#     contents = requests.get('https://random.dog/woof.json').json()    
-#     url = contents['url']
-#     return url
+def help(update , context):
+  teleID = update.effective_user.id
+  name = update.effective_user.first_name
+  logger.info("User %s and %s started the /Help Command.", name ,teleID)
+  commandss = '''
+/memes  : Get Latest Memes (updated Every 30 Min)
 
-def memes(update , context):
-    memes = get_memes()
-    chat_id = update.message.chat_id
-    for img in memes:
-      context.bot.send_photo(chat_id=chat_id, photo=img)
+/crypto_price : Get Current Prices of CryptoCurrency 
+
+/getvaccine : get Vaccine Update 18+ Varanasi
+
+/vaccinedelhi : get Vaccine Update 18+ Delhi Central
+
+/trend_news : Trending News
+
+/ent_news : Entertainment News
+
+/tech_news : Tech. News
+
+Adding more Commands Soon...
+  '''
+  update.effective_message.reply_text(commandss)
+
+
+
+def error(update, context):
+  """Log Errors caused by Updates."""
+  logger.warning('Update "%s" caused error "%s"', update, context.error)
+
 
 def main():
-    updater = Updater(token)
+    updater = Updater(token)  # create Credentials.py and add token
     dp = updater.dispatcher
+    
+    # Handler Are Defined Below
     dp.add_handler(CommandHandler('memes',memes))
-    dp.add_handler(CommandHandler('get_price',get_price))
+    dp.add_handler(CommandHandler('start',start))
+    dp.add_handler(CommandHandler('help',help))
+    dp.add_handler(CommandHandler('memes',memes))
+    dp.add_handler(CommandHandler('tech_news',tech_news))
+    dp.add_handler(CommandHandler('ent_news',ent_news))
+    dp.add_handler(CommandHandler('getvaccine',vaccineUpdate))
+    dp.add_handler(CommandHandler('vaccinedelhi',vaccineUpdatedelhi))
+    dp.add_handler(CommandHandler('trend_news',trend_news))
+    dp.add_handler(CommandHandler('crypto_price',crypto_price))
+    dp.add_error_handler(error)
     updater.start_polling()
     updater.idle()
 
 if __name__ == '__main__':
     main()
+
+
