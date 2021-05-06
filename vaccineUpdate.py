@@ -26,15 +26,17 @@ logging.basicConfig(filename='telegram.log',
 logger = logging.getLogger(__name__)
 
 
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
 def vaccineUpdate(update , context):
   ''' It is For Varanasi Only '''
+
   name = update.effective_user.first_name
   logger.info("User %s started Vaccine Update Varanasi", name)
   user = update.effective_message.from_user
   logger.info("User %s started the Vaccine Update Varanasi.", user.id)
   today = date.today().strftime("%d-%m-%Y")
-  jsonresdis = requests.get(f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=696&date={today}").json()
+  jsonresdis = requests.get(f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=696&date={today}" , headers = headers).json()
 
   for i in range(len(jsonresdis["centers"])):
     if jsonresdis["centers"][i]["sessions"][0]["min_age_limit"] == 18:
@@ -56,8 +58,7 @@ def vaccineUpdatedelhi(update , context):
   name = update.effective_user.first_name
   logger.info("User %s started Vaccine Update Delhi", name)
   today = date.today().strftime("%d-%m-%Y")
-  jsonresdis = requests.get(f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=141&date={today}").json()
-
+  jsonresdis = requests.get(f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=141&date={today}" , headers = headers).json()
   for i in range(len(jsonresdis["centers"])):
     if jsonresdis["centers"][i]["sessions"][0]["min_age_limit"] == 18:
       hos_name = jsonresdis["centers"][i]["name"]
