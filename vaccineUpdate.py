@@ -45,11 +45,12 @@ def vaccineUpdate(update , context):
       sessionlen = len(jsonresdis["centers"][i]["sessions"])
       if sessionlen > 0:
         for j in range(len(jsonresdis["centers"][i]["sessions"])):
-          avail_vaccine = jsonresdis["centers"][i]["sessions"][j]["available_capacity"]
-          hos_name = jsonresdis["centers"][i]["name"]
-          vdate = jsonresdis["centers"][i]["sessions"][j]["date"]
-          y = f"{hos_name} : {avail_vaccine} Vaccine Available on {vdate}"
-          update.effective_message.reply_text(y)
+          if jsonresdis["centers"][i]["sessions"][j]["available_capacity"] > 0:
+            avail_vaccine = jsonresdis["centers"][i]["sessions"][j]["available_capacity"]
+            hos_name = jsonresdis["centers"][i]["name"]
+            vdate = jsonresdis["centers"][i]["sessions"][j]["date"]
+            y = f"{hos_name} : {avail_vaccine} Vaccine Available on {vdate}"
+            update.effective_message.reply_text(y)
       else:
         x = f"{hos_name} : {avail_vaccine} Vaccine Available"
         update.effective_message.reply_text(x)
@@ -66,11 +67,12 @@ def vaccineUpdatedelhi(update , context):
       sessionlen = len(jsonresdis["centers"][i]["sessions"])
       if sessionlen > 0:
         for j in range(len(jsonresdis["centers"][i]["sessions"])):
-          avail_vaccine = jsonresdis["centers"][i]["sessions"][j]["available_capacity"]
-          hos_name = jsonresdis["centers"][i]["name"]
-          vdate = jsonresdis["centers"][i]["sessions"][j]["date"]
-          y = f"{hos_name} : {avail_vaccine} Vaccine Available on {vdate}"
-          update.effective_message.reply_text(y)
+          if jsonresdis["centers"][i]["sessions"][j]["available_capacity"] > 0:
+            avail_vaccine = jsonresdis["centers"][i]["sessions"][j]["available_capacity"]
+            hos_name = jsonresdis["centers"][i]["name"]
+            vdate = jsonresdis["centers"][i]["sessions"][j]["date"]
+            y = f"{hos_name} : {avail_vaccine} Vaccine Available on {vdate}"
+            update.effective_message.reply_text(y)
       else:
         x = f"{hos_name} : {avail_vaccine} Vaccine Available"
         update.effective_message.reply_text(x)
