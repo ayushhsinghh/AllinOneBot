@@ -26,4 +26,6 @@
 
 * /tech_news : Tech. News
 
+* /udemycoupon : get links Paid Udemy courses that are FREE now
+
 Adding more Commands Soon...
