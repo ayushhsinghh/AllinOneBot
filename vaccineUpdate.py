@@ -13,8 +13,6 @@ jsonresdis = requests.get(f"https://cdn-api.co-vin.in/api/v2/appointment/session
 
 change : district_id=141 in URI
 
-
-
 '''
 
 
@@ -37,22 +35,23 @@ def vaccineUpdate(update , context):
   logger.info("User %s started the Vaccine Update Varanasi.", user.id)
   today = date.today().strftime("%d-%m-%Y")
   jsonresdis = requests.get(f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=696&date={today}" , headers = headers).json()
-
   for i in range(len(jsonresdis["centers"])):
     if jsonresdis["centers"][i]["sessions"][0]["min_age_limit"] == 18:
       hos_name = jsonresdis["centers"][i]["name"]
-      avail_vaccine = jsonresdis["centers"][i]["sessions"][0]["available_capacity"]
+      dose1 = jsonresdis["centers"][i]["sessions"][0]["available_capacity_dose1"]
+      dose2 = jsonresdis["centers"][i]["sessions"][0]["available_capacity_dose2"]
       sessionlen = len(jsonresdis["centers"][i]["sessions"])
       if sessionlen > 0:
         for j in range(len(jsonresdis["centers"][i]["sessions"])):
           if jsonresdis["centers"][i]["sessions"][j]["available_capacity"] > 0:
-            avail_vaccine = jsonresdis["centers"][i]["sessions"][j]["available_capacity"]
+            dose1 = jsonresdis["centers"][i]["sessions"][j]["available_capacity_dose1"]
+            dose2 = jsonresdis["centers"][i]["sessions"][j]["available_capacity_dose2"]
             hos_name = jsonresdis["centers"][i]["name"]
             vdate = jsonresdis["centers"][i]["sessions"][j]["date"]
-            y = f"{hos_name} : {avail_vaccine} Vaccine Available on {vdate}"
+            y = f"{hos_name} :  Dose-1 : {dose1} and Dose-2 : {dose2} Vaccine Available on {vdate}"
             update.effective_message.reply_text(y)
       else:
-        x = f"{hos_name} : {avail_vaccine} Vaccine Available"
+        x = f"{hos_name} :  Dose-1 : {dose1} and Dose-2 : {dose2} Vaccine Available on {vdate}"
         update.effective_message.reply_text(x)
 
 def vaccineUpdatedelhi(update , context):
@@ -63,17 +62,19 @@ def vaccineUpdatedelhi(update , context):
   for i in range(len(jsonresdis["centers"])):
     if jsonresdis["centers"][i]["sessions"][0]["min_age_limit"] == 18:
       hos_name = jsonresdis["centers"][i]["name"]
-      avail_vaccine = jsonresdis["centers"][i]["sessions"][0]["available_capacity"]
+      dose1 = jsonresdis["centers"][i]["sessions"][0]["available_capacity_dose1"]
+      dose2 = jsonresdis["centers"][i]["sessions"][0]["available_capacity_dose2"]
       sessionlen = len(jsonresdis["centers"][i]["sessions"])
       if sessionlen > 0:
         for j in range(len(jsonresdis["centers"][i]["sessions"])):
           if jsonresdis["centers"][i]["sessions"][j]["available_capacity"] > 0:
-            avail_vaccine = jsonresdis["centers"][i]["sessions"][j]["available_capacity"]
+            dose1 = jsonresdis["centers"][i]["sessions"][j]["available_capacity_dose1"]
+            dose2 = jsonresdis["centers"][i]["sessions"][j]["available_capacity_dose2"]
             hos_name = jsonresdis["centers"][i]["name"]
             vdate = jsonresdis["centers"][i]["sessions"][j]["date"]
-            y = f"{hos_name} : {avail_vaccine} Vaccine Available on {vdate}"
+            y = f"{hos_name} :  Dose-1 : {dose1} and Dose-2 : {dose2} Vaccine Available on {vdate}"
             update.effective_message.reply_text(y)
       else:
-        x = f"{hos_name} : {avail_vaccine} Vaccine Available"
+        x = f"{hos_name} :  Dose-1 : {dose1} and Dose-2 : {dose2} Vaccine Available on {vdate}"
         update.effective_message.reply_text(x)
 
