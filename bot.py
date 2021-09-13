@@ -2,6 +2,7 @@ from telegram.ext import Updater, InlineQueryHandler, CommandHandler
 from credentials import token 
 from Newsfun import *
 from memesfuns import get_memes , memes
+from torrent import torrent
 from udemyCoupon import free_udemy_coupon
 from cryptoPrice import get_crypto_price , crypto_price
 from vaccineUpdate import vaccineUpdate , vaccineUpdatedelhi
@@ -60,6 +61,8 @@ def help(update , context):
 
 /udemycoupon : get links Paid Udemy courses that are FREE now
 
+/torrent : get torrent magnet Links( /torrent SearchQuery)
+
 Adding more Commands Soon...
   '''
   update.effective_message.reply_text(commandss)
@@ -85,6 +88,7 @@ def main():
     dp.add_handler(CommandHandler('getvaccine',vaccineUpdate))
     dp.add_handler(CommandHandler('vaccinedelhi',vaccineUpdatedelhi))
     dp.add_handler(CommandHandler('trend_news',trend_news))
+    dp.add_handler(CommandHandler('torrent' , torrent))
     dp.add_handler(CommandHandler('udemycoupon',free_udemy_coupon))
     dp.add_handler(CommandHandler('crypto_price',crypto_price))
     dp.add_error_handler(error)
