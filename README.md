@@ -28,4 +28,6 @@
 
 * /udemycoupon : get links Paid Udemy courses that are FREE now
 
+* /torrent : get torrent magnet Links( /torrent SearchQuery )
+
 Adding more Commands Soon...
