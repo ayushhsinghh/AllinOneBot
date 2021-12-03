@@ -74,6 +74,26 @@ def error(update, context):
   logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 
+
+def torrentError(update, context):
+  logger.info("User %s %s send wrong torrent command '%s'", update.effective_user.first_name,update.effective_user.id , update.effective_message.text)
+  reply_text = """ILLEGAL INPUT.
+correct Format : /torrent SearchQuery
+  
+eg.
+/torrent Spider man
+/torrent Avengers
+"""
+  update.message.reply_text(reply_text)
+  
+def wrongCommend(update, context):
+  logger.info("User %s %s send wrong command '%s'", update.effective_user.first_name,update.effective_user.id,update.effective_message.text)
+  update.message.reply_text("""
+  Wrong Command.
+  /help to check all supported Commands.
+  """)
+
+
 def main():
     updater = Updater(token)  # create Credentials.py and add token
     dp = updater.dispatcher
@@ -87,10 +107,12 @@ def main():
     dp.add_handler(CommandHandler('ent_news',ent_news))
     dp.add_handler(CommandHandler('getvaccine',vaccineUpdate))
     dp.add_handler(CommandHandler('vaccinedelhi',vaccineUpdatedelhi))
+    dp.add_handler(MessageHandler(Filters.regex('^.*(torrent).*$') & ~Filters.command, torrentError))
     dp.add_handler(CommandHandler('trend_news',trend_news))
     dp.add_handler(CommandHandler('torrent' , torrent))
     dp.add_handler(CommandHandler('udemycoupon',free_udemy_coupon))
     dp.add_handler(CommandHandler('crypto_price',crypto_price))
+    dp.add_handler(MessageHandler(Filters.command, wrongCommend))
     dp.add_error_handler(error)
     updater.start_polling()
     updater.idle()
