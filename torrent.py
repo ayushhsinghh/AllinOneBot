@@ -17,6 +17,9 @@ Function to get torrent Magnet links
 
 def torrent(update , context):
   user_says = " ".join(context.args)
+  if user_says == "":
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Please enter a search term with command /torrent")
+    return
   name = update.effective_user.first_name
   chat_id = update.message.chat_id
   logger.info(f"User {name}:{chat_id} started the torrentDownload with Argument '{user_says}'")
