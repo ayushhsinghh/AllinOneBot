@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "telegram-bot:bot.sleep (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/",
+                "lambdaHandler": "bot.sleep"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}

@@ -1,3 +1,512 @@
 16:24:51 - apscheduler.scheduler - INFO - Scheduler started
 16:25:01 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 16:25:01 - apscheduler.scheduler - INFO - Scheduler has been shut down
+16:53:29 - apscheduler.scheduler - INFO - Scheduler started
+06:44:49 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+06:44:49 - __main__ - WARNING - Update "None" caused error "Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"
+12:14:29 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+12:14:29 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+14:06:25 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+14:06:25 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+14:25:18 - __main__ - INFO - User AYUSH and 916184258 started the /Help Command.
+14:25:22 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Delhi
+14:26:06 - __main__ - INFO - User AYUSH and 916184258 started the /Help Command.
+14:26:12 - memesfuns - INFO - User AYUSH started the Memes Command.
+04:25:54 - __main__ - INFO - User AYUSH and 916184258 started the /Help Command.
+04:25:57 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+04:25:57 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:55:54 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+08:55:54 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+08:56:20 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+08:56:20 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+08:57:56 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:57:56 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:58:28 - __main__ - INFO - User AYUSH and 916184258 started the /Help Command.
+08:58:36 - __main__ - INFO - User AYUSH started the Bot.
+08:58:47 - __main__ - INFO - User AYUSH and 916184258 started the /Help Command.
+09:04:29 - cryptoPrice - INFO - User AYUSH started the crypto_price Command.
+09:05:06 - __main__ - INFO - User siddharth started the Bot.
+09:05:37 - __main__ - INFO - User siddharth started the Bot.
+09:07:17 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+09:07:17 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+10:08:43 - memesfuns - INFO - User AYUSH started the Memes Command.
+10:15:06 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+10:15:06 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+13:33:24 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+13:33:24 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:52:16 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:52:16 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:52:16 - __main__ - WARNING - Update "{'update_id': 171436774, 'message': {'message_id': 3800, 'date': 1620291136, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/getvaccine', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+08:52:32 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:52:32 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:52:32 - __main__ - WARNING - Update "{'update_id': 171436775, 'message': {'message_id': 3801, 'date': 1620291152, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/getvaccine', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+08:52:39 - __main__ - INFO - User AYUSH and 916184258 started the /Help Command.
+08:52:42 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Delhi
+08:52:42 - __main__ - WARNING - Update "{'update_id': 171436777, 'message': {'message_id': 3804, 'date': 1620291161, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/vaccinedelhi', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+08:52:46 - memesfuns - INFO - User AYUSH started the Memes Command.
+08:53:08 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:53:08 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:53:08 - __main__ - WARNING - Update "{'update_id': 171436779, 'message': {'message_id': 3811, 'date': 1620291180, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/getvaccine', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+08:54:05 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:54:05 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:54:05 - __main__ - WARNING - Update "{'update_id': 171436780, 'message': {'message_id': 3817, 'date': 1620291245, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/getvaccine', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+12:39:49 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+12:39:49 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+12:39:49 - __main__ - WARNING - Update "{'update_id': 171436781, 'message': {'message_id': 3818, 'date': 1620304789, 'chat': {'id': 409851693, 'type': 'private', 'first_name': 'siddharth', 'last_name': 'prakash'}, 'text': '/getvaccine', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 409851693, 'first_name': 'siddharth', 'is_bot': False, 'last_name': 'prakash', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+13:49:51 - apscheduler.scheduler - INFO - Scheduler started
+13:50:02 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+13:50:02 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+13:50:19 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Delhi
+16:09:26 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+16:09:26 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+16:09:54 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+16:09:54 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+06:28:18 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+06:28:18 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+19:34:00 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+19:34:00 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+19:35:40 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+19:35:40 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+04:27:47 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+04:27:47 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+06:53:41 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+06:53:41 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+08:42:43 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+08:42:43 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+09:40:57 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+09:40:57 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+11:37:12 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+11:37:12 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+12:16:29 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+12:16:29 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+13:25:07 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+13:25:07 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:13:00 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:13:00 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:13:14 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:13:14 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:13:36 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:13:36 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:14:00 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:14:00 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:14:10 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:14:10 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:18:15 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:18:15 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:18:58 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:18:58 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:19:28 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:19:28 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:19:35 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:19:35 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:19:41 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:19:41 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:19:47 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:19:47 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:19:53 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:19:53 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:19:58 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:19:58 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:03 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:03 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:07 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:07 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:10 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:10 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:17 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:17 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:24 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:24 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:31 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:31 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:36 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:36 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:41 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:41 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:47 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:47 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:52 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:52 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:20:57 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:20:57 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:21:49 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:21:49 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:21:54 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:21:54 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:22:03 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:22:03 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:22:08 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:22:08 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:22:12 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:22:12 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:22:16 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:22:16 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:12 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:12 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:19 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:19 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:27 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:27 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:34 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:34 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:41 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:41 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:46 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:46 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:51 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:51 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:24:57 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:24:57 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:25:04 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:25:04 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:25:36 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:25:36 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:28:48 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:28:48 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:28:55 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:28:55 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:34:49 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:34:49 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:39:20 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:39:20 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:39:32 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:39:32 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:16 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:16 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:21 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:21 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:31 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:31 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:38 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:38 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:43 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:43 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:47 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:47 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:50 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:50 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:53 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:53 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:41:55 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:41:55 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:42:05 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:42:05 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+15:34:55 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+15:34:55 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:22:30 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:22:30 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:42:52 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:42:52 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+17:07:09 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+17:07:09 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+17:44:42 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+17:44:42 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+20:10:46 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+20:10:46 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+21:16:54 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+21:16:54 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+05:02:06 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+05:02:06 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+08:57:02 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:57:02 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+11:19:06 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+11:19:06 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:57:11 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+14:57:11 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+16:26:54 - __main__ - INFO - User Aman started the Bot.
+16:27:48 - __main__ - INFO - User Aman and 1070748960 started the /Help Command.
+16:28:00 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+16:28:00 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+16:31:11 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+16:31:11 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+18:56:37 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+18:56:37 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+20:03:06 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fa149e91c88>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot935149789:AAHAZbAbiumEyczdFDqM4lHo9FHd5YhRqjs/getUpdates
+20:03:11 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fa149e91ef0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot935149789:AAHAZbAbiumEyczdFDqM4lHo9FHd5YhRqjs/getUpdates
+02:34:06 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+02:34:06 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+05:39:59 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+05:39:59 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+07:23:23 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+07:23:23 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+11:59:04 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+11:59:04 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+12:32:42 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+12:32:42 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:15:40 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:15:40 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:15:48 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:15:48 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:15:52 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+14:15:52 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+14:15:59 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:15:59 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:16:01 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+14:16:01 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+14:16:13 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+14:16:13 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+14:31:45 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:31:45 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:31:54 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:31:54 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:32:00 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+14:32:00 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:36:34 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+14:36:34 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+14:38:43 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+14:38:43 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+14:38:54 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Delhi
+14:56:00 - Newsfun - INFO - User AYUSH started the TechNews News.
+15:01:03 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+15:01:03 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+15:05:35 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+15:05:35 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+15:27:30 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+15:27:30 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+15:55:04 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+15:55:04 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:07:06 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+16:07:06 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+16:21:14 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:21:14 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:32:19 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:32:19 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:32:28 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:32:28 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:32:33 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:32:33 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:32:45 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:32:45 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:32:56 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:32:56 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:33:07 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:33:07 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:33:20 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:33:20 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+17:10:48 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+17:10:48 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+17:11:44 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+17:11:44 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+05:02:08 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+05:02:08 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+12:24:44 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+12:24:44 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+16:29:13 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:29:13 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+16:29:31 - vaccineUpdate - INFO - User Shashwat started Vaccine Update Varanasi
+16:29:31 - vaccineUpdate - INFO - User 904925228 started the Vaccine Update Varanasi.
+14:47:09 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+14:47:09 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+09:42:49 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+09:42:49 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+09:44:38 - memesfuns - INFO - User Aman started the Memes Command.
+09:44:45 - cryptoPrice - INFO - User Aman started the crypto_price Command.
+09:44:54 - vaccineUpdate - INFO - User Aman started Vaccine Update Delhi
+09:46:23 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+09:46:23 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+01:10:33 - telegram.ext.updater - ERROR - Error while getting Updates: Bad Gateway
+01:10:33 - __main__ - WARNING - Update "None" caused error "Bad Gateway"
+08:49:41 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+08:49:41 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+16:51:39 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+16:51:39 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+17:09:33 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+17:09:33 - __main__ - WARNING - Update "None" caused error "urllib3 HTTPError ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))"
+05:31:31 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+05:31:31 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+06:45:32 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+06:45:32 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+06:46:30 - __main__ - INFO - User Ayansh started the Bot.
+06:46:42 - __main__ - INFO - User Ayansh and 983733863 started the /Help Command.
+06:46:55 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+06:46:55 - vaccineUpdate - INFO - User 983733863 started the Vaccine Update Varanasi.
+06:48:39 - cryptoPrice - INFO - User Ayansh started the crypto_price Command.
+06:50:20 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+06:50:20 - vaccineUpdate - INFO - User 983733863 started the Vaccine Update Varanasi.
+07:44:14 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+07:44:14 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+07:58:23 - __main__ - INFO - User Ayansh started the Bot.
+07:58:25 - __main__ - INFO - User Ayansh and 1558911361 started the /Help Command.
+07:58:27 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+07:58:27 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+13:53:53 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+13:53:53 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+11:10:12 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+11:10:12 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+19:55:10 - __main__ - INFO - User Ayansh and 1558911361 started the /Help Command.
+19:55:19 - cryptoPrice - INFO - User Ayansh started the crypto_price Command.
+19:56:15 - Newsfun - INFO - User Ayansh started the TechNews News.
+08:12:06 - cryptoPrice - INFO - User Ayansh started the crypto_price Command.
+13:25:00 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+13:25:00 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+18:37:46 - __main__ - INFO - User Ayansh and 1558911361 started the /Help Command.
+18:37:55 - memesfuns - INFO - User Ayansh started the Memes Command.
+18:38:13 - cryptoPrice - INFO - User Ayansh started the crypto_price Command.
+19:56:00 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+19:56:00 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+20:14:27 - cryptoPrice - INFO - User Ayansh started the crypto_price Command.
+20:14:28 - __main__ - WARNING - Update "{'update_id': 171436945, 'message': {'message_id': 6946, 'date': 1621628067, 'chat': {'id': 1558911361, 'type': 'private', 'first_name': 'Ayansh', 'last_name': 'Sinha'}, 'text': '/crypto_price', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1558911361, 'first_name': 'Ayansh', 'is_bot': False, 'last_name': 'Sinha', 'language_code': 'en'}}}" caused error "HTTPSConnectionPool(host='api.ratesapi.io', port=443): Max retries exceeded with url: /api/latest?base=USD&symbols=INR&rtype=fpy (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa1487e8f98>: Failed to establish a new connection: [Errno -2] Name or service not known',))"
+04:14:45 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+04:14:45 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+04:14:51 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+04:14:51 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+04:57:59 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+04:57:59 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+13:30:25 - vaccineUpdate - INFO - User siddharth started Vaccine Update Varanasi
+13:30:25 - vaccineUpdate - INFO - User 409851693 started the Vaccine Update Varanasi.
+09:00:18 - __main__ - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Bot.
+09:00:22 - __main__ - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 and 1277319187 started the /Help Command.
+09:00:36 - Newsfun - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Trending News.
+09:01:05 - __main__ - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Bot.
+09:01:08 - __main__ - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 and 1277319187 started the /Help Command.
+09:01:16 - Newsfun - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Ent News.
+09:11:50 - __main__ - INFO - User Prasada started the Bot.
+09:12:16 - __main__ - INFO - User Prasada and 1664925251 started the /Help Command.
+09:12:35 - __main__ - INFO - User Prasada and 1664925251 started the /Help Command.
+09:13:37 - vaccineUpdate - INFO - User Prasada started Vaccine Update Varanasi
+09:13:37 - vaccineUpdate - INFO - User 1664925251 started the Vaccine Update Varanasi.
+09:14:24 - vaccineUpdate - INFO - User Prasada started Vaccine Update Varanasi
+09:14:24 - vaccineUpdate - INFO - User 1664925251 started the Vaccine Update Varanasi.
+09:15:27 - memesfuns - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Memes Command.
+09:15:52 - __main__ - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Bot.
+09:15:55 - __main__ - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 and 1277319187 started the /Help Command.
+09:15:59 - memesfuns - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Memes Command.
+09:16:08 - cryptoPrice - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the crypto_price Command.
+09:16:09 - __main__ - WARNING - Update "{'update_id': 171436966, 'message': {'message_id': 7658, 'date': 1621934168, 'chat': {'id': 1277319187, 'type': 'private', 'username': 'Expertinbotmaking', 'first_name': '★༄ᴾᴿᴼBotdeveloper★🇮🇳', 'last_name': 'GAGAN'}, 'text': '/crypto_price', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1277319187, 'first_name': '★༄ᴾᴿᴼBotdeveloper★🇮🇳', 'is_bot': False, 'last_name': 'GAGAN', 'username': 'Expertinbotmaking', 'language_code': 'en'}}}" caused error "HTTPSConnectionPool(host='api.ratesapi.io', port=443): Max retries exceeded with url: /api/latest?base=USD&symbols=INR&rtype=fpy (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa14cb940f0>: Failed to establish a new connection: [Errno -2] Name or service not known',))"
+09:16:17 - Newsfun - INFO - User ★༄ᴾᴿᴼBotdeveloper★🇮🇳 started the Ent News.
+14:30:17 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+14:30:17 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+09:34:18 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+09:34:18 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+13:50:33 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+13:50:33 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+19:01:07 - Newsfun - INFO - User AYUSH started the TechNews News.
+09:25:44 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+09:25:44 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+12:51:08 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+12:51:08 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+18:37:15 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+18:37:15 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+18:32:04 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+18:32:04 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+18:32:40 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+18:32:40 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+04:30:40 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+04:30:40 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+15:32:24 - vaccineUpdate - INFO - User AYUSH started Vaccine Update Varanasi
+15:32:24 - vaccineUpdate - INFO - User 916184258 started the Vaccine Update Varanasi.
+13:53:54 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fa149023668>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot935149789:AAHAZbAbiumEyczdFDqM4lHo9FHd5YhRqjs/getUpdates
+01:10:28 - telegram.ext.updater - ERROR - Error while getting Updates: Bad Gateway
+01:10:28 - __main__ - WARNING - Update "None" caused error "Bad Gateway"
+01:10:29 - telegram.ext.updater - ERROR - Error while getting Updates: Bad Gateway
+01:10:29 - __main__ - WARNING - Update "None" caused error "Bad Gateway"
+03:39:14 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+03:39:14 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+12:57:05 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+12:57:05 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+20:02:38 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+20:02:38 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+20:21:11 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+20:21:11 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+04:24:42 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+04:24:42 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+09:23:39 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+09:23:39 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+11:58:11 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+11:58:11 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+15:11:14 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+15:11:14 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+02:49:27 - vaccineUpdate - INFO - User Pushkar started Vaccine Update Varanasi
+02:49:27 - vaccineUpdate - INFO - User 1271333398 started the Vaccine Update Varanasi.
+04:43:01 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+04:43:01 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+04:57:49 - vaccineUpdate - INFO - User Ayansh started Vaccine Update Varanasi
+04:57:49 - vaccineUpdate - INFO - User 1558911361 started the Vaccine Update Varanasi.
+05:09:02 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+05:09:02 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+05:10:37 - __main__ - INFO - User Aman and 1070748960 started the /Help Command.
+05:10:50 - memesfuns - INFO - User Aman started the Memes Command.
+05:10:57 - cryptoPrice - INFO - User Aman started the crypto_price Command.
+05:10:58 - __main__ - WARNING - Update "{'update_id': 171436996, 'message': {'message_id': 9338, 'date': 1622956257, 'chat': {'id': 1070748960, 'type': 'private', 'username': 'Scorpion021202', 'first_name': 'Aman', 'last_name': 'Singh'}, 'text': '/crypto_price', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1070748960, 'first_name': 'Aman', 'is_bot': False, 'last_name': 'Singh', 'username': 'Scorpion021202', 'language_code': 'en'}}}" caused error "HTTPSConnectionPool(host='api.ratesapi.io', port=443): Max retries exceeded with url: /api/latest?base=USD&symbols=INR&rtype=fpy (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa1487e8358>: Failed to establish a new connection: [Errno -2] Name or service not known',))"
+05:10:59 - vaccineUpdate - INFO - User Aman started Vaccine Update Varanasi
+05:10:59 - vaccineUpdate - INFO - User 1070748960 started the Vaccine Update Varanasi.
+05:11:29 - vaccineUpdate - INFO - User Aman started Vaccine Update Delhi
+05:13:38 - __main__ - INFO - User Aman started the Bot.
+05:13:47 - __main__ - INFO - User Aman and 1070748960 started the /Help Command.
+05:13:55 - cryptoPrice - INFO - User Aman started the crypto_price Command.
+05:13:56 - __main__ - WARNING - Update "{'update_id': 171437001, 'message': {'message_id': 9456, 'date': 1622956435, 'chat': {'id': 1070748960, 'type': 'private', 'username': 'Scorpion021202', 'first_name': 'Aman', 'last_name': 'Singh'}, 'text': '/crypto_price', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1070748960, 'first_name': 'Aman', 'is_bot': False, 'last_name': 'Singh', 'username': 'Scorpion021202', 'language_code': 'en'}}}" caused error "HTTPSConnectionPool(host='api.ratesapi.io', port=443): Max retries exceeded with url: /api/latest?base=USD&symbols=INR&rtype=fpy (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa14cb8f7f0>: Failed to establish a new connection: [Errno -2] Name or service not known',))"
+20:29:06 - telegram.ext.dispatcher - ERROR - An error was raised while processing the update and an uncaught error was raised while handling the error with an error_handler
+Traceback (most recent call last):
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 31, in start
+    name = update.effective_user.first_name
+AttributeError: 'Bot' object has no attribute 'effective_user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 356, in process_update
+    self.dispatch_error(update, e)
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 527, in dispatch_error
+    callback(self.bot, update, error)
+TypeError: error() takes 2 positional arguments but 3 were given
+20:29:10 - telegram.ext.dispatcher - ERROR - An error was raised while processing the update and an uncaught error was raised while handling the error with an error_handler
+Traceback (most recent call last):
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 31, in start
+    name = update.effective_user.first_name
+AttributeError: 'Bot' object has no attribute 'effective_user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 356, in process_update
+    self.dispatch_error(update, e)
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 527, in dispatch_error
+    callback(self.bot, update, error)
+TypeError: error() takes 2 positional arguments but 3 were given
+20:31:46 - telegram.ext.dispatcher - ERROR - An error was raised while processing the update and an uncaught error was raised while handling the error with an error_handler
+Traceback (most recent call last):
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:\Users\CyberGOD\Desktop\Imp\Project\telegram-bot\cybergod\memesfuns.py", line 38, in memes
+    name = update.effective_user.first_name
+AttributeError: 'Bot' object has no attribute 'effective_user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 356, in process_update
+    self.dispatch_error(update, e)
+  File "C:\Users\CyberGOD\anaconda3\lib\site-packages\telegram\ext\dispatcher.py", line 527, in dispatch_error
+    callback(self.bot, update, error)
+TypeError: error() takes 2 positional arguments but 3 were given
+20:35:17 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+20:35:22 - telegram.ext.updater - WARNING - Exiting immediately!
+20:36:04 - __main__ - INFO - User AYUSH started the Bot.
+20:36:08 - memesfuns - INFO - User AYUSH started the Memes Command.
+20:48:51 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+20:55:36 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+20:55:58 - __main__ - INFO - User AYUSH:916184258 send message to bot : 'Hi'
+20:56:03 - __main__ - INFO - User AYUSH:916184258 send message to bot : 'Hello'
+21:06:02 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+21:08:44 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+21:08:49 - telegram.ext.updater - WARNING - Exiting immediately!
+21:09:51 - torrent - INFO - User AYUSH:916184258 started the torrentDownload with Argument ''
+21:10:00 - __main__ - WARNING - Update "{'update_id': 714019411, 'message': {'message_id': 43, 'date': 1638373192, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/torrent', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}, '_effective_user': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}, '_effective_chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, '_effective_message': {'message_id': 43, 'date': 1638373192, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/torrent', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+21:11:00 - __main__ - INFO - User AYUSH:916184258 send message to bot : 'Hh'
+21:11:15 - __main__ - INFO - User AYUSH:916184258 send message to bot : 'Torrent'
+21:11:36 - torrent - INFO - User AYUSH:916184258 started the torrentDownload with Argument ''
+21:11:38 - __main__ - WARNING - Update "{'update_id': 714019415, 'message': {'message_id': 50, 'date': 1638373297, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/torrent', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}, '_effective_user': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}, '_effective_chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, '_effective_message': {'message_id': 50, 'date': 1638373297, 'chat': {'id': 916184258, 'type': 'private', 'username': 'The_mischief', 'first_name': 'AYUSH'}, 'text': '/torrent', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 916184258, 'first_name': 'AYUSH', 'is_bot': False, 'username': 'The_mischief', 'language_code': 'en'}}}" caused error "Expecting value: line 1 column 1 (char 0)"
+21:14:59 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+21:18:41 - __main__ - INFO - User AYUSH:916184258 send message to bot : 'Hello'
+21:20:26 - __main__ - INFO - User AYUSH 916184258 send wrong command '/torrntaga'
+21:20:38 - torrent - INFO - User AYUSH:916184258 started the torrentDownload with Argument 'race 2'
