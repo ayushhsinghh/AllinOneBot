@@ -2,8 +2,7 @@ import requests
 import logging
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-import urllib3
-
+import urllib.parse
 logging.basicConfig(filename='telegram.log',
                           filemode='a',
                           datefmt='%H:%M:%S',
@@ -24,7 +23,7 @@ def whereToWatch(update , context):
     return
   
   logger.info(f"User {name}:{chat_id} started the Udemy Coupon Command.")
-  encoded = urllib3.parse.quote(user_says)
+  encoded = urllib.parse.quote(user_says)
   url = f'https://wheretowatch.herokuapp.com/{encoded}'
   result = requests.get(url).json()
   if len(result) == 0:
