@@ -1,5 +1,5 @@
-# All In One Bot
-
+## AllInOne Bot for Telegram 
+### Show some :heart: and :star: the repo to support the project
 
 ## [Checkout Bot](https://t.me/MrCybergod_bot)
 
@@ -29,5 +29,7 @@
 * /udemycoupon : get links Paid Udemy courses that are FREE now
 
 * /torrent : get torrent magnet Links( /torrent SearchQuery )
+
+* /wheretowatch : get Where movie/show is available( /watchtowatch MOVIE_NAME)
 
 Adding more Commands Soon...
