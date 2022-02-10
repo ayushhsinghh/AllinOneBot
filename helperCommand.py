@@ -44,7 +44,7 @@ def help(update , context):
 
 /torrent : get torrent magnet Links( /torrent SearchQuery)
 
-/watchtowatch : get Where movie/show is available( /watchtowatch MOVIE_NAME)
+/wheretowatch : get Where movie/show is available( /watchtowatch MOVIE_NAME)
 
 Adding more Commands Soon...
   '''
