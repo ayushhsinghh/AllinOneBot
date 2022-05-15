@@ -46,6 +46,8 @@ def help(update , context):
 
 /wheretowatch : get Where movie/show is available( /watchtowatch MOVIE_NAME)
 
+/instadp : get FullSize image of Instagram ProfilePic (/instadp USERNAME)
+
 Adding more Commands Soon...
   '''
   update.effective_message.reply_text(commandss)

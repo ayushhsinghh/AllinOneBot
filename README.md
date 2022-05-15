@@ -32,4 +32,6 @@
 
 * /wheretowatch : get Where movie/show is available( /watchtowatch MOVIE_NAME)
 
+* /instadp : get FullSize image of Instagram ProfilePic (/instadp USERNAME)
+
 Adding more Commands Soon...
