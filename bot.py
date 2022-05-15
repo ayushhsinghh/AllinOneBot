@@ -8,6 +8,7 @@ from udemyCoupon import free_udemy_coupon
 from cryptoPrice import get_crypto_price , crypto_price
 from vaccineUpdate import vaccineUpdate , vaccineUpdatedelhi
 from wheretoWatch import whereToWatch
+from instagramdp import instadp
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
     Updater,
@@ -38,6 +39,7 @@ def main():
     dp.add_handler(CommandHandler('wheretowatch' , whereToWatch))
     dp.add_handler(CommandHandler('udemycoupon',free_udemy_coupon))
     dp.add_handler(CommandHandler('crypto_price',crypto_price))
+    dp.add_handler(CommandHandler('instadp',instadp))
     dp.add_handler(MessageHandler(Filters.command, wrongCommend))
     dp.add_error_handler(error)
     updater.start_polling()
